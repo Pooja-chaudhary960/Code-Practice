@@ -96,3 +96,50 @@ function add(a, b){
    // Array, index value (position), index always starts from Zero
    const marks = [40,50, 30, 50 ,60, 70, 90,100, "ram", true, {science: 40}, ["good"]]
    console.log(marks[0]);
+
+   /** Operators
+    * 1. Arithmetic operation : +, -,*,/,%
+    * 2. Relational operation : >, <, ==, >=, ===
+    * 3. Logical operation : && (AND), || (OR), NOt(!)
+    * 
+    */
+
+   console.log(5 + 6);
+   console.log(5 - 6);
+   console.log(5 * 6);
+   console.log(12/5);
+   console.log(12 % 5);
+
+   console.log(5 > 6);
+   console.log(5 < 6);
+   console.log(5<5);
+   console.log(5 <=5 );
+   console.log(5==5);
+   console.log(5!=6);
+
+   console.log(5 == 5);
+
+   console.log(5 === "5");
+
+   // AND: If one of the input is false, then result is false.
+   console.log(false && false);
+
+   // OR: If one of the input is true, then result is true.
+   console.log(true || false);
+
+   // NOT: If input is true, then result is false.
+   console.log(!true);
+
+
+   /**
+    * Conditional statement(if, else, switch)
+    * 
+    * if (condition){
+    *   
+    * }
+    * 
+    */
+
+   if(true){
+    console.log("Hello from condition");
+   }
