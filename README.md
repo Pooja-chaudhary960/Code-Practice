@@ -32,7 +32,12 @@
 ## State 
 - Object (mutable/Changeable)
 - State is updated on user interaction, event triggers or API calls.
+- Whenever state value change, uI is re-render.
 
 # JSX
 - JS/HTML code
+
+## Props
+- Properties of a component.
+- Similar to HTML element attribute.
 
