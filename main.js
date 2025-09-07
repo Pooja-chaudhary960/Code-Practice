@@ -136,10 +136,55 @@ function add(a, b){
     * 
     * if (condition){
     *   
+    * }elseif(condition){
+    * 
+    * }else{
     * }
+    * if else ladder
     * 
     */
 
    if(true){
     console.log("Hello from condition");
    }
+
+   const gpa = 2.5;
+
+   if(gpa >= 3){
+    console.log("Distinction");
+   }else if (gpa >=2 ){
+    console.log("First Division");
+   }else if(gpa >=1){
+    console.log("Second Division");
+   }
+   else{
+    console.log("Fail");
+   }
+
+
+   /**
+    * switch (value){
+    * case compareValue:
+    * ....
+    * default:
+    * }
+    */
+
+
+   const day = "sunday"
+
+   switch(day){
+    case "sunday":
+        console.log("Holiday");
+        break;
+
+    case "saturday":
+        console.log("Holiday");
+        break;
+
+    default:
+        console.log("Not Holiday")
+        break;
+   }
+
+
